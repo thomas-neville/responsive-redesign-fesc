@@ -87,6 +87,26 @@ Diagnostics:
 Uses inefficient cache policy on static assets: 49 assets found
 JavaScript boot-up time is too high: 3,180ms
 
+#### WebPagetest.org
+Grades: | 
+----- | -----
+First Byte Time | F
+Keep-alive Enabled | A
+Compress Transfer | A
+Compress Images | C
+Cache static content | F
+Effective use of CDN | N/A
+
+Performance Test Results | 
+----- | -----
+Load Time | 4.577s
+First Byte | 1.180s
+Start Render | 2.200s
+Speed Index | 2994
+First Interactive (beta) | >4.479s
+
+Document Completed in 4.577s with 60 Requests in 1,254KB; and Fully Loaded in 4.663s with 61 Requests in 1255KB
+
 ### Functionality
 Current website functions for users with no impairments. This site scored a 59% for Accessibility and has missing functionality for screen readers. Search function works, but output is not easily evaluated. Links work properly, but there are redundancies. Page layout changes on certain pages and is not consistent.
 
@@ -115,7 +135,35 @@ Importance of the content to them | They are seeking this content out | H |
 How they found the page | Directed by a contact, SEO of the website, prior knowledge of the organization | H | 
 When it is read | Anytime of day | L | 
 
-## Device Support
+## Device and Browser Support
+### Screen Testing
+Device | Resolution | Screen Size | Orientation | Notes
+------- | ------- | ------- | ------- | -------
+Samsung - S24D590L | 1920 x 1080 | 23.6" | Landscape | 
+Dell - unknown older model | 1280 x 1024 | 19" | Landscape | 
+Acer Aspire e15 | 1920 x 1080 | 15.6" | Landscape | 
+iPhone 6S | 1334 x 750 | 4.7" | Landscape and portrait | 
+iPhone 5c | 1136 x 640 | 4" | Landscape and portrait | 
+Amazon Fire 7 | 1024 x 600 | 7" | Landscape and portrait | 
+
+#### Screen Testing Outcomes
+
+
+### Browser Testing
+Browser | Testing Notes
+------ | -----
+Chrome and Chrome for iOS | 
+Safari for iOS | 
+Safari Reader View | 
+Opera for Windows 10 | 
+Mozilla Firefox Reader View | 
+Microsoft Edge and Microsoft Edge for iOS | 
+Microsoft Edge Reader View | 
+Amazon Silk | 
+
+
+#### Browser Testing Outcomes
+
 
 ## Recommendations
 
