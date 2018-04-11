@@ -24,6 +24,11 @@ The current website uses a busy layout for the homepage:
 * more than five different font colors
 * styles change on linked pages
 
+W3C Validator:
+34 Errors, 25 warnings
+Many errors are undefined entity references
+Many warnings are "&" characters occurring as data while in a delimiter
+
 ### Accessibility Audit
 #### Google Accessibility Developer Tools Audit
 Score: 59%
@@ -56,6 +61,29 @@ HTML5 and ARIA (1):
 ### Mobile Friendliness
 
 ### Performance
+#### Google Accessibility Developer Tools Audit
+Score: 13%
+First meaningful paint: 9,480ms
+First Interactive (beta): 19,250ms
+Consistently Interactive (beta): 20,360ms
+
+Perceptual Speed Index: 12,031ms (13)
+Estimated Input Latency: 521ms
+
+Opportunities to increase optimization:
+Reduce render-blocking scripts - 7,550ms
+Reduce render-blocking stylesheets - 6,460ms
+Serve images in next-gen formats - 2,850ms/314KB
+Keep server response times low - 1,200 ms (for root doc to get the first byte)
+Optimize images - 1,000ms/110KB
+Unused CSS rules - 900ms/99KB
+Offscreen images - 830ms/91KB
+Properly size images - 390ms/42KB
+
+Diagnostics:
+Uses inefficient cache policy on static assets: 49 assets found
+JavaScript boot-up time is too high: 3,180ms
+
 
 ### Functionality
 
