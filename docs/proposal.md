@@ -88,7 +88,7 @@ Uses inefficient cache policy on static assets: 49 assets found
 JavaScript boot-up time is too high: 3,180ms
 
 #### WebPagetest.org
-Grades: | 
+Grades: | Note
 ----- | -----
 First Byte Time | F
 Keep-alive Enabled | A
@@ -97,7 +97,7 @@ Compress Images | C
 Cache static content | F
 Effective use of CDN | N/A
 
-Performance Test Results | 
+Performance Test Results | Note
 ----- | -----
 Load Time | 4.577s
 First Byte | 1.180s
