@@ -139,10 +139,10 @@ When it is read | Anytime of day | L |
 ### Screen Testing
 Device | Resolution | Screen Size | Orientation | Notes
 ------- | ------- | ------- | ------- | -------
-Samsung - S24D590L | 1920 x 1080 | 23.6" | Landscape | 
-Dell - unknown older model | 1280 x 1024 | 19" | Landscape | 
-Acer Aspire e15 | 1920 x 1080 | 15.6" | Landscape | 
-iPhone 6S | 1334 x 750 | 4.7" | Landscape and portrait | 
+Samsung - S24D590L | 1920 x 1080 | 23.6" | Landscape | Site functions at its best and appears the most correct on large displays. Mouse navigation is best.
+Dell - unknown older model | 1280 x 1024 | 19" | Landscape | Site functions at its best and appears the most correct on large displays. Mouse navigation is best.
+Acer Aspire e15 | 1920 x 1080 | 15.6" | Landscape | Site functions at its best and appears the most correct on large displays. Mouse navigation is best.
+iPhone 6S | 1334 x 750 | 4.7" | Landscape and portrait | Site is not optimized for mobile. Scale of text is too small to read without zooming. Header and footer are not at 100% width
 iPhone 5c | 1136 x 640 | 4" | Landscape and portrait | 
 Amazon Fire 7 | 1024 x 600 | 7" | Landscape and portrait | 
 
@@ -154,7 +154,7 @@ Browser | Testing Notes
 ------ | -----
 Chrome and Chrome for iOS | 
 Safari for iOS | 
-Safari Reader View | 
+Safari Reader View | Text is easily read, but navigation options disappear. Youtube video is clickable, newsletter link appears. 
 Opera for Windows 10 | 
 Mozilla Firefox Reader View | 
 Microsoft Edge and Microsoft Edge for iOS | 
