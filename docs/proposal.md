@@ -20,7 +20,7 @@ Use the tools and strategies we've learned so far to do this research. You will 
 The current website uses a busy layout for the homepage:
 * cycling images in the header
 * multiple navigation bars
-..* with some overlapping links and some unique
+--* with some overlapping links and some unique
 * more than five different fonts
 * more than five different font colors
 * 
