@@ -16,6 +16,9 @@ Use the tools and strategies we've learned so far to do this research. You will 
 # Website Redesign Proposal for Florida Energy Systems Consortium
 <http://floridaenergy.ufl.edu/>
 
+## Objective of Redesign
+To create a more user friendly and responsive website across devices that will visit the page. Ease of use and quick navigation to find content is desired.
+
 ## State of the Current Site
 The current website uses a busy layout for the homepage:
 * cycling images in the header
@@ -84,12 +87,33 @@ Diagnostics:
 Uses inefficient cache policy on static assets: 49 assets found
 JavaScript boot-up time is too high: 3,180ms
 
-
 ### Functionality
+Current website functions for users with no impairments. This site scored a 59% for Accessibility and has missing functionality for screen readers. Search function works, but output is not easily evaluated. Links work properly, but there are redundancies. Page layout changes on certain pages and is not consistent.
 
 ### Ease of Use
+Current website is visually confusing and possibly unusable for some visual disabilites based on testing. Navigation is overwhelming, with two separate navigation bars, some links are repeated and others are unique. There are inconsistencies across both and it is unintuitive. Design aesthetics are not visually pleasing in general - multiple fonts and conflicting colors.
 
 ## User Research
+User Base Attribute | My User Base | Impact | Notes
+------ | ------- | ------- | -------
+Age and age groups | Professionals, possibly students (most likely high school age and up) | M | 
+Personal life-style | Business, researching, education-based | M | 
+Gender | Male and female | L | 
+Language | Most likely english as a first language | L | 
+Education | Most likely GED and higher | M | 
+Learning preferences | Visual and readability | H | Text should be accessible for screen readers
+Work attributes | Many users will be visiting for work purposes, information pertaining to their business | H | 
+Expectations | Based on what information they are searching for | H | Should be intuitive to find information
+Existing knowledge | Familiarity the subject and terms| M | 
+Web and computer experience | Familiar with the subject and terms | M | 
+On what device they will read it | Mobile, tablet, desktop | H | 
+Internet connection speed | Variable | H | Should keep image sizes managable for slower speeds
+User's location | Unknown | M | Users could be viewing this site for research purposes from locations outside of the US
+Place where the page is read | For professional and academic purposes | H |
+Why users seek the content | Informational purposes | H | 
+Importance of the content to them | They are seeking this content out | H | 
+How they found the page | Directed by a contact, SEO of the website, prior knowledge of the organization | H | 
+When it is read | Anytime of day | L | 
 
 ## Device Support
 
