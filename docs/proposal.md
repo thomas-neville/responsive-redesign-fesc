@@ -1,18 +1,3 @@
-This proposal should include: 
-
-objectives/purpose of the redesign
-state of the current site
-accessibility audit
-mobile friendliness
-performance (how quickly does it load?)
-functionality (does it work?)
-ease of use (is it pleasant to use?
-user research (who are expected users? What do they want to accomplish?)
-device support necessary
-recommendations
-deliverables- each with description & acceptance terms
-Use the tools and strategies we've learned so far to do this research. You will not be responsible for completing all of your recommendations for the redesign. This will be a document to demonstrate your understanding of the domain.
-
 # Website Redesign Proposal for Florida Energy Systems Consortium
 <http://floridaenergy.ufl.edu/>
 
@@ -62,6 +47,14 @@ HTML5 and ARIA (1):
 
 
 ### Mobile Friendliness
+This website is currently not mobile friendly based on the testing in this document. More specifically, based on Google's "Mobile-Friendly Test", the following issues were found:
+* Viewport not set
+* Clickable elements too close together
+* Text too small to read
+* Content wider than screen
+
+For more details on this website's mobile-friendliness - see the **Device and Browser Support** section.
+
 
 ### Performance
 #### Google Accessibility Developer Tools Audit
