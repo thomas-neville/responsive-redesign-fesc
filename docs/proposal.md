@@ -116,7 +116,7 @@ Language | Most likely english as a first language | L |
 Education | Most likely GED and higher | M | 
 Learning preferences | Visual and readability | H | Text should be accessible for screen readers
 Work attributes | Many users will be visiting for work purposes, information pertaining to their business | H | 
-Expectations | Based on what information they are searching for | H | Should be intuitive to find information
+Expectations | Based on what information they are searching for | M | Should be intuitive to find information
 Existing knowledge | Familiarity the subject and terms| M | 
 Web and computer experience | Familiar with the subject and terms | M | 
 On what device they will read it | Mobile, tablet, desktop | H | 
@@ -137,28 +137,40 @@ Dell - unknown older model | 1280 x 1024 | 19" | Landscape | Site functions at i
 Acer Aspire e15 | 1920 x 1080 | 15.6" | Landscape | Site functions at its best and appears the most correct on large displays. Mouse navigation is best.
 iPhone 6S | 1334 x 750 | 4.7" | Landscape and portrait | Site is not optimized for mobile. Scale of text is too small to read without zooming. Header and footer are not at 100% width
 iPhone 5c | 1136 x 640 | 4" | Landscape and portrait | 
-Amazon Fire 7 | 1024 x 600 | 7" | Landscape and portrait | 
-
-#### Screen Testing Outcomes
-
+Amazon Fire 7 | 1024 x 600 | 7" | Landscape and portrait | Similarly to iPhone devices, it is not optimized for this size device. Touch navigation is difficult on both top and side navigation bars. Header and footer widths are not 100% of the width.
 
 ### Browser Testing
 Browser | Testing Notes
------- | -----
-Chrome and Chrome for iOS | 
-Safari for iOS | 
+------ | ------
+Chrome and Chrome for iOS | Not optimized for mobile devices, but the site functions in this browser.
+Safari for iOS | Not optimized for mobile devices, but the site functions in this browser.
 Safari Reader View | Text is easily read, but navigation options disappear. Youtube video is clickable, newsletter link appears. 
-Opera for Windows 10 | 
-Mozilla Firefox Reader View | 
-Microsoft Edge and Microsoft Edge for iOS | 
-Microsoft Edge Reader View | 
-Amazon Silk | 
+Opera for Windows 10 | Page displays as it should and links function.
+Mozilla Firefox | Not optimized for mobile devices, but the site functions in this browser. 2 analytic trackers found on this website through this browser. (Possibly Google Analytics and a page view tracker to find errors)
+Microsoft Edge and Microsoft Edge for iOS | Not optimized for mobile devices, but this site functions in this browser. Upon page load the viewport starts at the end of the page.
+Amazon Silk | Links seem functional, YouTube video takes slightly longer to appear on homepage. Search and Newsletter boxes are missing a border.
 
-
-#### Browser Testing Outcomes
-
+#### Screen and Browser Testing Outcomes
+This website is not optimized for mobile devices and preferred viewing is on larger screens like desktops. Navigation is difficult on touch screens because clickable links are close together. Text size is too small to read without zooming in or using "reader mode." Site functions the same on small and large screens. 
 
 ## Recommendations
+For improved user experience (in no particular order):
+1. Redesign functionality for mobile devices - "mobile first"
+2. Correct errors and warnings with HTML, CSS, and JavaScript
+3. Rename tags, IDs, and classes for improved SEO
+4. Look into unncessary scripts, tracking scripts, and poorly optimized scripts
+
 
 ## Deliverables
+Based on recommendations:
+1. Website will be redesigned, primarily using CSS and HTML, to create a "mobile friendly" version. This will be done with media queries for smaller screen sizes. This will also involve redesigning the navigation - more simplified drop-down menus will group related subjects/information. 
+* Acceptance terms: When the site can be clearly navigated using a touch screen mobile device without zooming in or manually adjusting text size.
 
+2. Correct errors in all HTML, CSS, and Javascript files for this site. This will increase performance. 
+* Acceptance terms: When HTML passes W3C validator, CSS passes Jigsaw validator, and when the console displays no errors for Javascript files.
+
+3. Rename tags to more semantic tags (article, section, blockquote, etc.) Also test tag names for browser support and consolidate information into the same/less tags if possible. This will increase Search Engine Optimization.
+* Acceptance terms: When all tags have been checked for more semantic versions and consolidated if possible. SEO score should improve.
+
+4. Identify scripts with issues based on errors, but also simplify existing ones. Possibly move away from jQuery and to vanilla Javascript.
+* Acceptance terms: When there are no console errors and the amount of scripts makes less of an impact on performace. Goal is to cut down page load time by 1000ms.
