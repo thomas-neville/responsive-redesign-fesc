@@ -2,7 +2,7 @@
 <http://floridaenergy.ufl.edu/>
 
 ## Objective of Redesign
-To create a more user friendly and responsive website across devices that will visit the page. Ease of use and quick navigation to find content is desired.
+To create a more user friendly and responsive website across devices that will visit the page. Ease of use and quick navigation to find content is desired. Goals of the redesign include improvements to mobile device usability, error corrections in HTML, CSS, and JavaScript, renaming tags to improve SEO, and revisions of the scripts. See recommendations and deliverables for more details.
 
 ## State of the Current Site
 The current website uses a busy layout for the homepage:
