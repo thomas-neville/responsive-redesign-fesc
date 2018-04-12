@@ -12,6 +12,8 @@ The current website uses a busy layout for the homepage:
 * more than five different font colors
 * styles change on linked pages
 
+There are many pages on this website - navigation and styles change throughout the website.
+
 W3C Validator:
 34 Errors, 25 warnings
 Many errors are undefined entity references
