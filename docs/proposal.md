@@ -135,8 +135,8 @@ Device | Resolution | Screen Size | Orientation | Notes
 Samsung - S24D590L | 1920 x 1080 | 23.6" | Landscape | Site functions at its best and appears the most correct on large displays. Mouse navigation is best.
 Dell - unknown older model | 1280 x 1024 | 19" | Landscape | Site functions at its best and appears the most correct on large displays. Mouse navigation is best.
 Acer Aspire e15 | 1920 x 1080 | 15.6" | Landscape | Site functions at its best and appears the most correct on large displays. Mouse navigation is best.
-iPhone 6S | 1334 x 750 | 4.7" | Landscape and portrait | Site is not optimized for mobile. Scale of text is too small to read without zooming. Header and footer are not at 100% width
-iPhone 5c | 1136 x 640 | 4" | Landscape and portrait | 
+iPhone 6S | 1334 x 750 | 4.7" | Landscape and portrait | Site is not optimized for mobile. Scale of text is too small to read without zooming. Header and footer are not at 100% width.
+iPhone 5c | 1136 x 640 | 4" | Landscape and portrait | Site is not optimized for mobile. Scale of text is too small to read without zooming. Header and footer are not at 100% width.
 Amazon Fire 7 | 1024 x 600 | 7" | Landscape and portrait | Similarly to iPhone devices, it is not optimized for this size device. Touch navigation is difficult on both top and side navigation bars. Header and footer widths are not 100% of the width.
 
 ### Browser Testing
