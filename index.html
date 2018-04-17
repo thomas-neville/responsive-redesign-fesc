@@ -20,6 +20,25 @@
     <meta name="twitter:image" content="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png" alt="FESC Logo">
     <meta name="twitter:card" content="summary_large_image">
     
+    <!-- Twitter Widget before other scripts -->
+    <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));
+    </script>
+    
   </head>
   <body>
     <header>
@@ -109,6 +128,9 @@
     <footer>
       <!-- Social Media -->
       <div>
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Information%20from%20FESC" data-size="large">
+          Tweet
+        </a>
       </div>
       
       <!-- Newsletter Sign-up -->
