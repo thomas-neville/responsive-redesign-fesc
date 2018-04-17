@@ -41,6 +41,17 @@
     
   </head>
   <body>
+    <!-- Facebook Share Button Script ideally right after opening body tag -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
     <header>
       <!-- Search -->
       <div>Search for:
@@ -126,11 +137,20 @@
     
     <!-- Footer with Social Media and Newsletter Sign-up -->
     <footer>
-      <!-- Social Media -->
+      <!-- Social Media Containter-->
       <div>
+        
+        <!-- Twitter Share Button -->
         <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Information%20from%20FESC" data-size="large">
           Tweet
         </a>
+        
+        <!-- Facebook Share Button -->
+        <div class="fb-share-button" data-href="https://thomas-neville.github.io/responsive-redesign-fesc/" data-layout="button" data-size="small" data-mobile-iframe="true">
+          <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthomas-neville.github.io%2Fresponsive-redesign-fesc%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+            Share
+          </a>
+        </div>        
       </div>
       
       <!-- Newsletter Sign-up -->
