@@ -1,4 +1,4 @@
-# Website Redesign Plan for Florida Energy Systems Consortium
+# Design Plan for Florida Energy Systems Consortium
 <http://floridaenergy.ufl.edu/>
 
 ## Research and Inspiration
