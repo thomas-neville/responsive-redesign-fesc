@@ -76,10 +76,44 @@ The header will include:
 
 Options for styling:
 * Sticky Navigation - larger options on page load and condense to simple menu and/or dropdown
+* Hamburger menu for mobile
+* Gradient bottom border (blue to green)
+* Transparency on background navigation color (off logo color scheme)
 
-###
+### Section and Article
+* Center on page
+* Increase font size
+* High contrast (light background, dark font)
+* Box shadow
+* Small subtle line (on logo color scheme) left, top, or right border
+* Headings larger text (possibly a logo color)
 
-## Layout
+### Images
+* Overlay text on images, link to relevant pages
+* Alternate sides of the screen with text/images
+
+### Contact Profiles
+* Image of staff member with contact information
+* Alternate sides with images/text
+
+### Visit Us
+* Holds iframe map
+* Possibly incorporate with footer, but user need for this is probably low priority
+
+### Footer
+* Scrollable list of universities/colleges with images (possible text links in columns)
+* Contact us information - link to *Contact Us* page
+
+### Aside Navigation
+* Possibly incorporated with the footer
+* Pop up menu from either "Suggested Search Options," "Site Map" in footer, or hover over pop up menu from a side of the screen
+
+## General Layout Notes
+* Article text and informational text should be the focus
+* Font consistency, sizing, readability are the most important aspect
+* Aside Menu options are overwhelming and should be hidden
+* More white space with stylized lines to divide sections
+* Transparency on images
 
 
 
