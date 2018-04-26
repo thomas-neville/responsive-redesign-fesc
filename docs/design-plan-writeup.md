@@ -4,9 +4,9 @@
 ## Research and Inspiration
 
 ### Notes on Research and Inspiration
+Images saved in [https://github.com/thomas-neville/responsive-redesign-fesc/tree/master/docs]
+
 #### Bloomberg Graphics
-![alt text]
-(https://raw.githubusercontent.com/thomas-neville/responsive-redesign-fesc/master/docs/bloomberg-graphics.PNG "Bloomberg Graphics")
 * Very readable layout with lots of white space and contrast with colors
 * One featured article takes up 50% of the page, other modules take 1/8 and stack
 * Conveys different options for available articles clearly
