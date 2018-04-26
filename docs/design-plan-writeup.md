@@ -5,6 +5,8 @@
 
 ### Notes on Research and Inspiration
 #### Bloomberg Graphics
+![alt text]
+(https://raw.githubusercontent.com/thomas-neville/responsive-redesign-fesc/master/docs/bloomberg-graphics.PNG "Bloomberg Graphics")
 * Very readable layout with lots of white space and contrast with colors
 * One featured article takes up 50% of the page, other modules take 1/8 and stack
 * Conveys different options for available articles clearly
@@ -57,15 +59,15 @@ Easy to read and common fonts, not distracting from the information intended to 
 Background: White or very light gray
 Font color: Dark gray or black
 
-*Incorporate logo colors in the web page*
+Incorporate logo colors in the web page
 Since the logo colors are not complimentary of each other, use transparency or gradients. 
 * Limit the amount of the color, small lines should be used
 Logo Colors (from dropper extension):
-Seagreen: #00784b; rgb(0,120,75)
-Brown(Red): #981c1e; rgb(152,28,30)
-Darkkhaki: #ceb36c; rgb(206,179,108)
-Darkslateblue: #263995; rgb(38,57,149)
-Chocolate(orange): #f57722; rgb(245,119,34)
+* Seagreen: #00784b; rgb(0,120,75)
+* Brown(Red): #981c1e; rgb(152,28,30)
+* Darkkhaki: #ceb36c; rgb(206,179,108)
+* Darkslateblue: #263995; rgb(38,57,149)
+* Chocolate(orange): #f57722; rgb(245,119,34)
 
 ## Modules
 ### Header
