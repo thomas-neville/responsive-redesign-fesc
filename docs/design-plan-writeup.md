@@ -35,14 +35,37 @@
 * Animated colors end with soft colors
 * Very simple small header, with a few main options and dropdown for more links in an intuitive location
 
-#### What to include
-* 
+#### What to include 
+At a basic level, more detailed information on these in *Theme* section
+* High contrast
+* Center articles
+* Subtle lines to divide information
+* Pleasant scrolling experience
+* Readable fonts for articles, slightly more stylized for headings (should be professional)
+* Infographic if there is information available
+* Transparency and gradients 
 
 ## Theme
 ### Fonts
-### Colors
+Google Fonts:
+* Open Sans
+* Source Sans Pro
 
-### Reasoning for Theme
+Easy to read and common fonts, not distracting from the information intended to be conveyed.
+
+### Colors
+Background: White or very light gray
+Font color: Dark gray or black
+
+*Incorporate logo colors in the web page*
+Since the logo colors are not complimentary of each other, use transparency or gradients. 
+* Limit the amount of the color, small lines should be used
+Logo Colors (from dropper extension):
+Seagreen: #00784b; rgb(0,120,75)
+Brown(Red): #981c1e; rgb(152,28,30)
+Darkkhaki: #ceb36c; rgb(206,179,108)
+Darkslateblue: #263995; rgb(38,57,149)
+Chocolate(orange): #f57722; rgb(245,119,34)
 
 ## Modules
 ### Header
@@ -52,7 +75,7 @@ The header will include:
 * Search
 
 Options for styling:
-* Sticky Navigation - larger options on page load and condense to 
+* Sticky Navigation - larger options on page load and condense to simple menu and/or dropdown
 
 ###
 
