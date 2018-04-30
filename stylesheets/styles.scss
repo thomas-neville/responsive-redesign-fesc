@@ -1,9 +1,44 @@
 // Only edit this SCSS file, do not edit CSS file 
 
+// Variables
+$font-heading: 'Open Sans', sans-serif;
+$font-normal: 'Source Sans Pro', sans-serif;
+$font-special: 'Arimo', sans-serif;
+
 // Header
 
 // Navigation
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    
+    a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      border: 1px solid red;
+      
+      // insert hover and click styles here &: 
+      
+    }
+  }
+}
 
 // Body
+body {
+  font-family: $font-normal;
+  
+  
+}
+
+h1, h2, h3 {
+  font-family: $font-heading;
+}
 
 // Footer
