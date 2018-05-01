@@ -14,6 +14,13 @@ header {
     width: 20rem;
     height: auto;
   }
+  
+  .main-logo {
+    width: 200px;
+    @media screen and (min-width: 588px) {
+      width: 25rem;
+    }
+  }
 }
 // Body
 body {
@@ -32,15 +39,22 @@ nav {
   ul {
     width: 98%;
     display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: space-between;
+    flex-flow: column wrap;
+    justify-content: center;
     list-style-type: none;
     padding: 0;
     margin: 0;
     border: 1px solid black;
     
+    @media screen and (min-width: 588px) {
+      flex-flow: row wrap;
+      justify-content: space-between;
+      
+    }
+    
     li {
+      align-self: center;
+      margin: .3rem 0;
       
       a {
         text-decoration: none;
@@ -73,6 +87,10 @@ section {
     
     iframe {
       border-radius: 5px;
+      @media screen and (min-width: 588px) {
+        width: 560px;
+        height: 315px;
+      }
     }
   }
   
@@ -82,16 +100,17 @@ section {
     margin: 1rem;
     padding: .5rem;
     
-    img {
-      min-width: 300px;
-      max-width: 40rem;
+    .news-banner {
+      width: 90%;
+      height: auto;
       align-self: center;
+      @media screen and (min-width: 588px) {
+        width: 35rem;
+        height: auto;
+      }
     }
   }
 }
-
-// Aside
-
 
 // Footer
 footer {
@@ -116,10 +135,21 @@ footer {
   
   .newsletter-block {
     align-self: center;
-    align-content: center;
+    justify-content: center;
     
-    form {
-      
+    p {
+      margin-bottom: .3rem;
+    }
+    
+    form input {
+      border-radius: 3px;
+      border: 1px solid gray;
+      padding: 3px;
+    }
+    form button {
+      border-radius: 3px;
+      border: 1px solid gray;
+      padding: 3px 7px;
     }
   }
   
