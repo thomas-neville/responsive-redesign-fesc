@@ -68,11 +68,24 @@ section {
   }
   
   .vid-holder {
-    align-self: flex-end;
-    margin: 2rem 10% 2rem 80%;
+    align-self: center;
+    margin: 2rem 0 2rem 0;
     
     iframe {
       border-radius: 5px;
+    }
+  }
+  
+  .news-area {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 1rem;
+    padding: .5rem;
+    
+    img {
+      min-width: 300px;
+      max-width: 40rem;
+      align-self: center;
     }
   }
 }
@@ -84,10 +97,37 @@ section {
 footer {
   width: 98%;
   border: 1px solid green;
+  display: flex;
+  flex-flow: column wrap;
+  
+  .social-block {
+    width: 98%;
+    height: 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1rem;
+    
+    .facebook-block {
+      margin: 0 1rem 0;
+    }
+    
+  }
+  
+  .newsletter-block {
+    align-self: center;
+    align-content: center;
+    
+    form {
+      
+    }
+  }
   
   ul {
+    width: 98%;
     list-style-type: none;
     padding-left: .5rem;
+    font-size: .8rem;
 
     a {
       text-decoration: none;
