@@ -1,3 +1,7 @@
+header {
+  width: 98%;
+  border: 1px solid green; }
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   width: 100%;
@@ -38,13 +42,17 @@ nav {
 h1, h2, h3 {
   font-family: "Open Sans", sans-serif; }
 
-aside {
-  width: 10rem;
+section {
+  width: 98%;
   border: 1px solid green; }
-  aside ul {
+
+footer {
+  width: 98%;
+  border: 1px solid green; }
+  footer ul {
     list-style-type: none;
     padding-left: .5rem; }
-    aside ul a {
+    footer ul a {
       text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
