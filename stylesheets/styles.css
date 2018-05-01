@@ -1,6 +1,9 @@
 header {
   width: 98%;
   border: 1px solid green; }
+  header img {
+    width: 20rem;
+    height: auto; }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
