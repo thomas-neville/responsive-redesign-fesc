@@ -46,8 +46,23 @@ h1, h2, h3 {
   font-family: "Open Sans", sans-serif; }
 
 section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
   width: 98%;
   border: 1px solid green; }
+  section p {
+    margin: 0 20% 0 0; }
+  section .vid-holder {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin: 2rem 10% 2rem 80%; }
+    section .vid-holder iframe {
+      border-radius: 5px; }
 
 footer {
   width: 98%;

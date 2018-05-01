@@ -58,8 +58,23 @@ h1, h2, h3 {
 
 // Main Section
 section {
+  display: flex;
+  flex-flow: column wrap;
   width: 98%;
   border: 1px solid green;
+  
+  p {
+    margin: 0 20% 0 0;
+  }
+  
+  .vid-holder {
+    align-self: flex-end;
+    margin: 2rem 10% 2rem 80%;
+    
+    iframe {
+      border-radius: 5px;
+    }
+  }
 }
 
 // Aside
