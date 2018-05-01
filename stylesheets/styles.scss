@@ -1,4 +1,4 @@
-// Only edit this SCSS file, do not edit CSS file 
+// Only edit this SCSS file, do not edit CSS file (Changes will not save in CSS)
 
 // Variables
 $font-heading: 'Open Sans', sans-serif;
@@ -7,38 +7,62 @@ $font-special: 'Arimo', sans-serif;
 
 // Header
 
+// Body
+body {
+  font-family: $font-normal;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  
+}
+
 // Navigation
 nav {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
+  width: 100%;
+  border: 1px solid green;
   
   ul {
+    width: 98%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-between;
     list-style-type: none;
     padding: 0;
     margin: 0;
     border: 1px solid black;
     
-    a {
-      text-decoration: none;
-      font-size: 1.5rem;
-      border: 1px solid red;
+    li {
       
-      // insert hover and click styles here &: 
-      
+      a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        border: 1px solid red;
+        // insert hover and click styles here &: 
+      }
     }
   }
-}
-
-// Body
-body {
-  font-family: $font-normal;
-  
-  
 }
 
 h1, h2, h3 {
   font-family: $font-heading;
 }
+
+// Aside
+aside {
+  width: 10rem;
+  border: 1px solid green;
+  
+  ul {
+    list-style-type: none;
+    padding-left: .5rem;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+
 
 // Footer
