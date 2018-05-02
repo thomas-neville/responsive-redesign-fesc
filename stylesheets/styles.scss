@@ -34,7 +34,7 @@ body {
 // Navigation
 nav {
   width: 100%;
-  border: 1px solid green;
+  border: 1px solid blue;
   
   ul {
     width: 98%;
@@ -49,7 +49,6 @@ nav {
     @media screen and (min-width: 588px) {
       flex-flow: row wrap;
       justify-content: space-between;
-      
     }
     
     li {
@@ -130,7 +129,6 @@ footer {
     .facebook-block {
       margin: 0 1rem 0;
     }
-    
   }
   
   .newsletter-block {
@@ -153,14 +151,64 @@ footer {
     }
   }
   
-  ul {
+  .copyright-info {
+    align-self: center;
+    font-size: .5rem;
+    @media screen and (min-width: 588px) {
+      font-size: .7rem;
+    }
+  }
+  
+  .footer-nav {
     width: 98%;
     list-style-type: none;
     padding-left: .5rem;
     font-size: .8rem;
-
+    
+    ul {
+      width: 98%;
+      display: flex;
+      flex-flow: column wrap;
+      align-content: flex-start;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      border: 1px solid red;
+     
+      @media screen and (min-width: 635px) {
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        height: 10rem;
+      }
+      
+      li {
+        align-self: flex-start;
+        margin: 0 0 0 1rem;
+        
+        a {
+          text-decoration: none;
+          font-size: .8rem;
+          border: none;
+        } 
+      }
+    }
+  }
+  
+  .universities {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+    @media screen and (min-width: 375px) {
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+    
     a {
-      text-decoration: none;
+      img {
+        border-radius: 3px;
+        margin: 1rem;
+      }
     }
   }
 }
