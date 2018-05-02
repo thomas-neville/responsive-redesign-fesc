@@ -69,6 +69,8 @@ nav {
         text-decoration: none;
         font-size: 1.5rem;
         color: #E0E1FF; }
+        nav ul li a:hover {
+          color: #ceb36c; }
 
 h1, h2, h3 {
   font-family: "Open Sans", sans-serif;
@@ -110,7 +112,8 @@ section {
       width: 90%;
       height: auto;
       -ms-flex-item-align: center;
-          align-self: center; }
+          align-self: center;
+      border-radius: 5px; }
       @media screen and (min-width: 588px) {
         section .news-area .news-banner {
           width: 35rem;
@@ -199,10 +202,14 @@ footer {
             align-self: flex-start;
         margin: 0 0 0 1rem;
         color: #E0E1FF; }
+        footer .footer-nav ul li:hover {
+          color: #ceb36c; }
         footer .footer-nav ul li a {
           text-decoration: none;
           font-size: .8rem;
           border: none; }
+          footer .footer-nav ul li a:hover {
+            color: #ceb36c; }
   footer .universities {
     display: -webkit-box;
     display: -ms-flexbox;

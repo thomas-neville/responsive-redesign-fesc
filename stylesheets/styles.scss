@@ -96,7 +96,9 @@ nav {
         text-decoration: none;
         font-size: 1.5rem;
         color: $background-light;
-        // insert hover and click styles here &: 
+        &:hover {
+          color: $logo-khaki;
+        } 
       }
     }
   }
@@ -141,6 +143,7 @@ section {
       width: 90%;
       height: auto;
       align-self: center;
+      border-radius: 5px;
       @media screen and (min-width: 588px) {
         width: 35rem;
         height: auto;
@@ -222,11 +225,17 @@ footer {
         align-self: flex-start;
         margin: 0 0 0 1rem;
         color: $background-light;
+        &:hover {
+            color: $logo-khaki;
+        }
         
         a {
           text-decoration: none;
           font-size: .8rem;
           border: none;
+          &:hover {
+            color: $logo-khaki;
+          }
         } 
       }
     }
