@@ -150,7 +150,8 @@ footer {
             justify-content: center;
     padding: 1rem; }
     footer .social-block .facebook-block {
-      /* Check this */ }
+      margin: 0;
+      padding: 0; }
   footer .newsletter-block {
     -ms-flex-item-align: center;
         align-self: center;
