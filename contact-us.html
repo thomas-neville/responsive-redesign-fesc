@@ -5,20 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     
-    <!-- facebook tags -->
+    <!-- Facebook tags -->
+    <!-- Note Facebook wants the og:image to be a minimum of 200px by 200px, change with CSS to fit Twitter and Tumblr specs as well-->
     <meta property="og:title" content="Florida Energy Systems Consortium">
-    <meta property="og:description" content="Contact Us">
+    <meta property="og:description" content="Home">
     <meta property="og:image" content="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png">
     <meta property="og:image:width" content="521">
     <meta property="og:image:height" content="184">
     <meta property="og:url" content="https://thomas-neville.github.io/responsive-redesign-fesc/">
     <meta property="og:type" content="website">
 
-    <!-- twitter tags -->
+    <!-- Twitter tags -->
+    <!-- Correct image size for Twitter with CSS -->
     <meta name="twitter:title" content="Florida Energy Systems Consortium">
-    <meta name="twitter:description" content="Contact Us">
+    <meta name="twitter:description" content="Home">
     <meta name="twitter:image" content="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png">
     <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Twitter Widget before other scripts -->
+    <script>
+      window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+
+        return t;
+      }(document, "script", "twitter-wjs"));
+    </script>
+    
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Arimo|Open+Sans|Source+Sans+Pro" rel="stylesheet">
@@ -28,21 +53,22 @@
     
   </head>
   <body>
-    <header>
-      <!-- Search -->
-      <div>Search for:
-        <form>
-          <input type="text" name="search">
-          <button type="submit">Search</button>
-        </form>
-      </div>
-      
+    <!-- Facebook Share Button Script ideally right after opening body tag -->
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <header>      
       <!-- Logo and Image Carousel -->
       <div>
-        <img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png" alt="FESC Logo">
-      </div>
-      <div>
-        <img src="#" alt="Image Carousel">
+        <img class="main-logo" src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png" alt="FESC Logo">
       </div>
 
       <!-- Main Top Navigation -->
@@ -54,15 +80,30 @@
           <li>
             <a href="https://thomas-neville.github.io/responsive-redesign-fesc/research.html">RESC Research</a>
           </li>
-          <li>Education</li>
-          <li>Outreach</li>
-          <li>User Facilities</li>
+          <li>
+            <a href="#">Education</a>
+          </li>
+          <li>
+            <a href="#">Outreach</a>
+          </li>
+          <li>
+            <a href="#">User Facilities</a>
+          </li>
           <li>
             <a href="https://thomas-neville.github.io/responsive-redesign-fesc/energy-industry.html">Energy Industry</a>
           </li>
-          <li>Advisory Board</li>
+          <li>
+            <a href="#">Advisory Board</a>
+          </li>
           <li>
             <a href="https://thomas-neville.github.io/responsive-redesign-fesc/contact-us.html">Contact Us</a>
+          </li>
+          <li>
+            <!-- Search -->
+            <form>
+              <input type="text" name="search" placeholder="search">
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
           </li>
         </ul>
       </nav>
