@@ -72,7 +72,7 @@ nav {
         nav ul li a:hover {
           color: #ceb36c; }
 
-h1, h2, h3 {
+h1 {
   font-family: "Open Sans", sans-serif;
   margin: 2% 0 0 8%;
   padding: 0 0 0 2%;
@@ -82,6 +82,30 @@ h1, h2, h3 {
   -o-border-image: linear-gradient(to bottom, #00784b, rgba(0, 0, 0, 0)) 1 100%;
      border-image: -webkit-gradient(linear, left top, left bottom, from(#00784b), to(rgba(0, 0, 0, 0))) 1 100%;
      border-image: linear-gradient(to bottom, #00784b, rgba(0, 0, 0, 0)) 1 100%;
+  border-right-style: hidden; }
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  margin: 2% 0 0 8%;
+  padding: 0 0 0 2%;
+  color: #28282E;
+  border-width: 3px;
+  border-style: solid;
+  -o-border-image: linear-gradient(to bottom, #263995, rgba(0, 0, 0, 0)) 1 100%;
+     border-image: -webkit-gradient(linear, left top, left bottom, from(#263995), to(rgba(0, 0, 0, 0))) 1 100%;
+     border-image: linear-gradient(to bottom, #263995, rgba(0, 0, 0, 0)) 1 100%;
+  border-right-style: hidden; }
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  margin: 2% 0 0 8%;
+  padding: 0 0 0 2%;
+  color: #28282E;
+  border-width: 3px;
+  border-style: solid;
+  -o-border-image: linear-gradient(to bottom, #981c1e, rgba(0, 0, 0, 0)) 1 100%;
+     border-image: -webkit-gradient(linear, left top, left bottom, from(#981c1e), to(rgba(0, 0, 0, 0))) 1 100%;
+     border-image: linear-gradient(to bottom, #981c1e, rgba(0, 0, 0, 0)) 1 100%;
   border-right-style: hidden; }
 
 section {

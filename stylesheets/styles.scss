@@ -25,6 +25,55 @@ $logo-orange-trans: rgba(245,119,34,0.5);
 $background-dark: #28282E;
 $background-light: #E0E1FF;
 
+// Mixins
+@mixin border-gradient-green {
+  border-width: 3px;
+  border-style: solid;
+  -webkit-border-image: 
+    -webkit-gradient(linear, 0, 0, 0 100%, from($logo-green), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: 
+    -webkit-linear-gradient($logo-green, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient($logo-green, rgba(0, 0, 0, 0)) 1 100%;    
+  -o-border-image:
+    -o-linear-gradient($logo-green, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+    linear-gradient(to bottom, $logo-green, rgba(0, 0, 0, 0)) 1 100%;
+  border-right-style: hidden;
+}
+
+@mixin border-gradient-blue {
+  border-width: 3px;
+  border-style: solid;
+  -webkit-border-image: 
+    -webkit-gradient(linear, 0, 0, 0 100%, from($logo-blue), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: 
+    -webkit-linear-gradient($logo-blue, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient($logo-blue, rgba(0, 0, 0, 0)) 1 100%;    
+  -o-border-image:
+    -o-linear-gradient($logo-blue, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+    linear-gradient(to bottom, $logo-blue, rgba(0, 0, 0, 0)) 1 100%;
+  border-right-style: hidden;
+}
+
+@mixin border-gradient-red {
+  border-width: 3px;
+  border-style: solid;
+  -webkit-border-image: 
+    -webkit-gradient(linear, 0, 0, 0 100%, from($logo-red), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: 
+    -webkit-linear-gradient($logo-red, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient($logo-red, rgba(0, 0, 0, 0)) 1 100%;    
+  -o-border-image:
+    -o-linear-gradient($logo-red, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+    linear-gradient(to bottom, $logo-red, rgba(0, 0, 0, 0)) 1 100%;
+  border-right-style: hidden;
+}
+
 // Header
 header {
   width: 98%;
@@ -104,24 +153,29 @@ nav {
   }
 }
 
-h1, h2, h3 {
+
+h1 {
   font-family: $font-heading;
   margin: 2% 0 0 8%;
   padding: 0 0 0 2%;
   color: $background-dark;
-  border-width: 3px;
-  border-style: solid;
-  -webkit-border-image: 
-    -webkit-gradient(linear, 0, 0, 0 100%, from($logo-green), to(rgba(0, 0, 0, 0))) 1 100%;
-  -webkit-border-image: 
-    -webkit-linear-gradient($logo-green, rgba(0, 0, 0, 0)) 1 100%;
-  -moz-border-image:
-    -moz-linear-gradient($logo-green, rgba(0, 0, 0, 0)) 1 100%;    
-  -o-border-image:
-    -o-linear-gradient($logo-green, rgba(0, 0, 0, 0)) 1 100%;
-  border-image:
-    linear-gradient(to bottom, $logo-green, rgba(0, 0, 0, 0)) 1 100%;
-  border-right-style: hidden;
+  @include border-gradient-green;
+}
+
+h2 {
+  font-family: $font-heading;
+  margin: 2% 0 0 8%;
+  padding: 0 0 0 2%;
+  color: $background-dark;
+  @include border-gradient-blue;
+}
+
+h3 {
+  font-family: $font-heading;
+  margin: 2% 0 0 8%;
+  padding: 0 0 0 2%;
+  color: $background-dark;
+  @include border-gradient-red;
 }
 
 // Main Section
