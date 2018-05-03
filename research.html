@@ -128,14 +128,78 @@
       </ul>
     </section>
     
-    <!-- Footer with Copyright info, images for colleges and universities in consortium, contact us link  -->
+    <!-- Footer with Social Media and Newsletter Sign-up -->
     <footer>
-      <p>Copyright Information</p>
+      <!-- Social Media Containter-->
+      <div class="social-block">
+        
+        <!-- Twitter Share Button -->
+        <div class="twitter-block">
+          <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Information%20from%20FESC">
+          Tweet
+          </a>
+        </div>
+
+        <!-- Facebook Share Button -->
+        <div class="facebook-block">
+          <div class="fb-share-button" data-href="https://thomas-neville.github.io/responsive-redesign-fesc/" data-layout="button" data-size="small" data-mobile-iframe="true">
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthomas-neville.github.io%2Fresponsive-redesign-fesc%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+            Share
+            </a>
+          </div>
+        </div>  
+        
+        <!-- Tumblr Share Button -->
+        <div class="tumblr-block">
+          <a class="tumblr-share-button" data-color="blue" data-notes="right" href="https://embed.tumblr.com/share"></a> 
+          <script>
+          !function(d,s,id){
+            var js,ajs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){
+              js=d.createElement(s);js.id=id;js.src="https://assets.tumblr.com/share-button.js";ajs.parentNode.insertBefore(js,ajs);
+            }
+          }(document, "script", "tumblr-js");
+          </script>
+        </div>
+      </div>
       
-      <a href="https://thomas-neville.github.io/responsive-redesign-fesc/contact-us.html">Contact Us</a>
+      <!-- Newsletter Sign-up -->
+      <div class="newsletter-block">
+        <p>Sign up for the FESC Florida Energy Connections Newsletter</p>
+        <form>
+          <input type="text" name="news-signup" placeholder="email address">
+          <button type="submit">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+      
+      <!-- More navigation from aside -->
+      <nav class="footer-nav">
+         <ul class="footer-ul">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Florid Energy Facts</li>
+          <li>FESC Expertise</li>
+          <li>FESC Funded Projects</li>
+          <li>FL University Research</li>
+          <li>Technology Commercialization</li>
+          <li>Facilities and Resources</li>
+          <li>Energy Education/Energy Jobs</li>
+          <li>Public Outreach: Fact Sheets, Videos, and Research Areas</li>
+          <li>FESC Conferences</li>
+          <li>Annual Reports, Publications and Presentations</li>
+          <li>Frequently Asked Questions</li>
+          <li>Links</li>
+          <li>
+            <a href="https://thomas-neville.github.io/responsive-redesign-fesc/contact-us.html">Contact Us</a>
+          </li>
+        </ul>     
+      </nav>
+
+      <p class="copyright-info">Copyright 2018</p>
       
       <!-- Creating a div to hold the logos for colleges and universities -->
-      <div>
+      <div class="universities">
         <a href="http://www.ufl.edu/">
           <img src="images/logo-ufl-90x67.jpg" alt="UFL">
         </a>
@@ -184,7 +248,7 @@
           <img src="images/logo-fpu-100x67.jpg" alt="FPU">
         </a>
         
-      </div>            
+      </div>   
     </footer>
   </body>
 </html>

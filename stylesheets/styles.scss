@@ -112,7 +112,7 @@ h1, h2, h3 {
   border-width: 3px;
   border-style: solid;
   -webkit-border-image: 
-    -webkit-gradient(linear, 0 0, 0 100%, from($logo-green), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-gradient(linear, 0, 0, 0 100%, from($logo-green), to(rgba(0, 0, 0, 0))) 1 100%;
   -webkit-border-image: 
     -webkit-linear-gradient($logo-green, rgba(0, 0, 0, 0)) 1 100%;
   -moz-border-image:
@@ -121,6 +121,7 @@ h1, h2, h3 {
     -o-linear-gradient($logo-green, rgba(0, 0, 0, 0)) 1 100%;
   border-image:
     linear-gradient(to bottom, $logo-green, rgba(0, 0, 0, 0)) 1 100%;
+  border-right-style: hidden;
 }
 
 // Main Section

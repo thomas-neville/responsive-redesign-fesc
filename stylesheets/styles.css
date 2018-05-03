@@ -81,7 +81,8 @@ h1, h2, h3 {
   border-style: solid;
   -o-border-image: linear-gradient(to bottom, #00784b, rgba(0, 0, 0, 0)) 1 100%;
      border-image: -webkit-gradient(linear, left top, left bottom, from(#00784b), to(rgba(0, 0, 0, 0))) 1 100%;
-     border-image: linear-gradient(to bottom, #00784b, rgba(0, 0, 0, 0)) 1 100%; }
+     border-image: linear-gradient(to bottom, #00784b, rgba(0, 0, 0, 0)) 1 100%;
+  border-right-style: hidden; }
 
 section {
   display: -webkit-box;
