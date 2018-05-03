@@ -74,7 +74,7 @@ nav {
 
 h1 {
   font-family: "Open Sans", sans-serif;
-  margin: 2% 0 0 8%;
+  margin: 2% 1rem 0 8%;
   padding: 0 0 0 2%;
   color: #28282E;
   border-width: 3px;
@@ -86,7 +86,7 @@ h1 {
 
 h2 {
   font-family: "Open Sans", sans-serif;
-  margin: 2% 0 0 8%;
+  margin: 2% 0 1rem 8%;
   padding: 0 0 0 2%;
   color: #28282E;
   border-width: 3px;
@@ -118,7 +118,7 @@ section {
           flex-flow: column wrap;
   width: 98%; }
   section p {
-    margin: 0 20% 0 0;
+    margin: 0 20% 1rem 0;
     padding: 0 0 0 10%; }
   section .vid-holder {
     -ms-flex-item-align: center;
@@ -150,6 +150,67 @@ section {
         section .news-area .news-banner {
           width: 35rem;
           height: auto; } }
+
+.energy-image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10%;
+  width: 60%; }
+
+.energy-image {
+  display: none;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 1rem 0;
+  border-radius: 5px; }
+  @media screen and (min-width: 588px) {
+    .energy-image {
+      display: block;
+      width: 30%; } }
+
+.strat-research-list {
+  padding: 0 0 0 10%;
+  list-style-type: none; }
+  .strat-research-list li {
+    margin: .6rem 0;
+    padding-left: .5rem;
+    color: #28282E; }
+    .strat-research-list li:hover {
+      color: #f57722; }
+
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 10% 0 0 0; }
+  @media screen and (min-width: 588px) {
+    .contact-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      width: 50%; } }
+
+.contact-block {
+  margin: 0 0 2rem 0; }
+  .contact-block img {
+    padding: 1rem;
+    border-radius: 5px; }
 
 footer {
   width: 98%;

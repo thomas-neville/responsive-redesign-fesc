@@ -156,7 +156,7 @@ nav {
 
 h1 {
   font-family: $font-heading;
-  margin: 2% 0 0 8%;
+  margin: 2% 1rem 0 8%;
   padding: 0 0 0 2%;
   color: $background-dark;
   @include border-gradient-green;
@@ -164,7 +164,7 @@ h1 {
 
 h2 {
   font-family: $font-heading;
-  margin: 2% 0 0 8%;
+  margin: 2% 0 1rem 8%;
   padding: 0 0 0 2%;
   color: $background-dark;
   @include border-gradient-blue;
@@ -178,14 +178,14 @@ h3 {
   @include border-gradient-red;
 }
 
-// Main Section
+// Main Sections
 section {
   display: flex;
   flex-flow: column wrap;
   width: 98%;
   
   p {
-    margin: 0 20% 0 0;
+    margin: 0 20% 1rem 0;
     padding: 0 0 0 10%;
   }
   
@@ -218,6 +218,59 @@ section {
         height: auto;
       }
     }
+  }
+}
+
+.energy-image-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 10%;
+  width: 60%;
+}
+
+.energy-image {
+  display: none;
+  align-self: flex-start;
+  margin: 1rem 0;
+  border-radius: 5px;
+  @media screen and (min-width: 588px) {
+    display: block;
+    width: 30%;
+  }
+}
+
+.strat-research-list {
+  padding: 0 0 0 10%;
+  list-style-type: none;
+  
+  li {
+    margin: .6rem 0;
+    padding-left: .5rem;
+    color: $background-dark;
+    &:hover {
+      color: $logo-orange;
+    }
+  }
+}
+
+.contact-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  margin: 10% 0 0 0;
+  @media screen and (min-width: 588px) {
+    flex-flow: row wrap;
+    width: 50%;
+  }
+}
+
+.contact-block {
+  margin: 0 0 2rem 0;
+  
+  img {
+    padding: 1rem;
+    border-radius: 5px;
   }
 }
 
