@@ -21,8 +21,8 @@ header {
   header i {
     color: #E0E1FF; }
     header i:hover {
-      -webkit-transition: color .5s ease-out;
-      transition: color .5s ease-out;
+      -webkit-transition: color .5s;
+      transition: color .5s;
       color: #f57722; }
 
 body {
@@ -79,8 +79,8 @@ nav {
         font-size: 1.5rem;
         color: #E0E1FF; }
         nav ul li a:hover {
-          -webkit-transition: color .5s ease-out;
-          transition: color .5s ease-out;
+          -webkit-transition: color .5s;
+          transition: color .5s;
           color: #f57722; }
 
 h1 {
@@ -255,17 +255,46 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 1rem; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 70%;
+    margin-bottom: 1rem;
+    background-color: #28282E;
+    padding: 1rem 3rem;
+    -webkit-box-shadow: 0 2px 2px 0 #00784b;
+            box-shadow: 0 2px 2px 0 #00784b; }
     footer .newsletter-block p {
-      margin-bottom: .3rem; }
+      color: #00784b;
+      width: 50%;
+      margin: -.3rem .5rem .3rem 0; }
+    footer .newsletter-block form {
+      -ms-flex-item-align: center;
+          align-self: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
     footer .newsletter-block form input {
       border-radius: 3px;
-      border: 1px solid gray;
-      padding: 3px; }
+      border: 1px solid #E0E1FF;
+      background-color: #28282E;
+      padding: .5rem;
+      width: 8rem;
+      caret-color: #00784b; }
     footer .newsletter-block form button {
       border-radius: 3px;
-      border: 1px solid gray;
-      padding: 3px 7px; }
+      background-color: #28282E;
+      border: none;
+      padding: .5rem;
+      color: #E0E1FF; }
+      footer .newsletter-block form button:hover {
+        -webkit-transition: color .5s;
+        transition: color .5s;
+        color: #00784b; }
   footer .copyright-info {
     -ms-flex-item-align: center;
         align-self: center;
