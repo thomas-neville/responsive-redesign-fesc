@@ -10,14 +10,20 @@ header {
         width: 25rem; } }
   header input {
     border-radius: 3px;
-    border: 2px solid #E0E1FF;
-    padding: 3px; }
+    border: 1px solid #E0E1FF;
+    background-color: #28282E;
+    padding: .5rem;
+    caret-color: #f57722; }
   header button {
-    border-radius: 3px;
+    background-color: #28282E;
     border: none;
-    padding: 5px 8px 5px 8px; }
+    padding: .5rem; }
   header i {
-    color: #28282E; }
+    color: #E0E1FF; }
+    header i:hover {
+      -webkit-transition: color .5s ease-out;
+      transition: color .5s ease-out;
+      color: #f57722; }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
@@ -34,7 +40,9 @@ body {
 nav {
   width: 98%;
   background-color: #28282E;
-  padding: .5rem; }
+  padding: .3rem;
+  -webkit-box-shadow: 0 3px 3px 0 gray;
+          box-shadow: 0 3px 3px 0 gray; }
   nav ul {
     width: 98%;
     display: -webkit-box;
@@ -48,7 +56,7 @@ nav {
         -ms-flex-pack: center;
             justify-content: center;
     list-style-type: none;
-    padding: 0;
+    padding: .3rem;
     margin: 0; }
     @media screen and (min-width: 588px) {
       nav ul {
@@ -70,7 +78,9 @@ nav {
         font-size: 1.5rem;
         color: #E0E1FF; }
         nav ul li a:hover {
-          color: #ceb36c; }
+          -webkit-transition: color .5s ease-out;
+          transition: color .5s ease-out;
+          color: #f57722; }
 
 h1 {
   font-family: "Open Sans", sans-serif;

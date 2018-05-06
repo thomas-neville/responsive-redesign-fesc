@@ -92,20 +92,27 @@ header {
   
   input {
     border-radius: 3px;
-    border: 2px solid $background-light;
-    padding: 3px;
+    border: 1px solid $background-light;
+    background-color: $background-dark;
+    padding: .5rem;
+    caret-color: $logo-orange;
   }
   
   button {
-    border-radius: 3px;
+    background-color: $background-dark;
     border: none;
-    padding: 5px 8px 5px 8px;
+    padding: .5rem;
   }
   
   i {
-    color: $background-dark;
+    color: $background-light;
+    &:hover {
+        transition: color .5s ease-out;
+        color: $logo-orange;
+    }
   }
 }
+
 // Body
 body {
   font-family: $font-normal;
@@ -119,7 +126,8 @@ body {
 nav {
   width: 98%;
   background-color: $background-dark;
-  padding: .5rem;
+  padding: .3rem;
+  box-shadow: 0 3px 3px 0 gray;
   
   ul {
     width: 98%;
@@ -127,7 +135,7 @@ nav {
     flex-flow: column wrap;
     justify-content: center;
     list-style-type: none;
-    padding: 0;
+    padding: .3rem;
     margin: 0;
     
     @media screen and (min-width: 588px) {
@@ -146,7 +154,8 @@ nav {
         font-size: 1.5rem;
         color: $background-light;
         &:hover {
-          color: $logo-khaki;
+          transition: color .5s ease-out;
+          color: $logo-orange;
         } 
       }
     }
