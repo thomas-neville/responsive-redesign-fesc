@@ -1,5 +1,5 @@
 header {
-  width: 98%; }
+  width: 99%; }
   header img {
     width: 20rem;
     height: auto; }
@@ -28,6 +28,7 @@ header {
 body {
   font-family: "Source Sans Pro", sans-serif;
   width: 100%;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,7 +39,7 @@ body {
   background-color: #E0E1FF; }
 
 nav {
-  width: 99%;
+  width: 98%;
   background-color: #28282E;
   padding: .3rem;
   -webkit-box-shadow: 0 3px 3px 0 gray;
