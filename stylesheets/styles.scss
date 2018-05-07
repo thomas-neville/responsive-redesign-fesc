@@ -264,23 +264,51 @@ section {
   }
 }
 
+.contact-section {
+  width: 98%;
+  padding: 1rem 10% 0;
+}
+
 .contact-container {
   display: flex;
   flex-flow: column wrap;
-  justify-content: flex-start;
-  margin: 10% 0 0 0;
+  width: 80%;
   @media screen and (min-width: 588px) {
     flex-flow: row wrap;
-    width: 50%;
+  }
+  
+  address {
+    width: 100%;
+    margin: 0 0 2rem 10%;
   }
 }
 
 .contact-block {
-  margin: 0 0 2rem 0;
-  
-  img {
-    padding: 1rem;
-    border-radius: 5px;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 2rem 8%;
+  @media screen and (min-width: 588px) {
+    width: 40%;
+  }
+
+  p {
+    text-align: center;
+    justify-content: center;
+    margin: .2rem 0 0 0;
+    padding: 0 3rem 0;
+    font-size: .8rem;
+  }
+}
+
+.profile-img {
+  width: 30%;
+  margin: 0 35%;
+  height: auto;
+  @media screen and (min-width: 588px) {
+    width: 10rem;
   }
 }
 
