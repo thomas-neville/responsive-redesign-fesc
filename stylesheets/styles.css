@@ -173,8 +173,8 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 10%;
-  width: 60%; }
+  margin: 0 0 1rem 10%;
+  width: 70%; }
 
 .energy-image {
   display: none;
@@ -310,7 +310,8 @@ footer {
           align-self: center;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      margin: 0; }
     footer .newsletter-block form input {
       border-radius: 3px;
       border: 1px solid #E0E1FF;
