@@ -83,6 +83,7 @@ nav {
           transition: color .5s;
           color: #f57722; }
 
+/* Too much nesting! Should change to classes. */
 h1 {
   font-family: "Open Sans", sans-serif;
   margin: 2% 1rem 0 8%;
