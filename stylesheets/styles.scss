@@ -231,6 +231,8 @@ section {
   }
 }
 
+/* Too much nesting! Should change to classes */
+
 .energy-image-container {
   display: flex;
   flex-flow: row wrap;
@@ -424,11 +426,13 @@ footer {
       }
     }
   }
+/* Too much nesting! Should change to classes */
   
   .universities {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    background-color: #f0f0f0;
     
     @media screen and (min-width: 375px) {
       flex-flow: row wrap;
