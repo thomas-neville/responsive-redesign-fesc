@@ -260,7 +260,8 @@ section {
 
 #google-chart {
   -ms-flex-item-align: center;
-      align-self: center; }
+      align-self: center;
+  width: 80%; }
 
 footer {
   width: 98%;

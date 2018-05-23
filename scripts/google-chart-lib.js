@@ -76,8 +76,9 @@ function drawChart() {
 
   // Set chart options
   var options = {'title':'Renewable Energy Production in Florida',
-                 'width':400,
-                 'height':300};
+                 'backgroundColor': '#E0E1FF'
+                
+                };
 
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.ColumnChart(document.getElementById('google-chart'));
