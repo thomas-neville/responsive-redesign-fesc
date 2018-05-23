@@ -76,8 +76,8 @@ function drawChart() {
 
   // Set chart options
   var options = {'title':'Renewable Energy Production in Florida',
-                 'backgroundColor': '#E0E1FF'
-                
+                 'backgroundColor': '#E0E1FF',
+                 'legend': 'none'
                 };
 
   // Instantiate and draw our chart, passing in some options.
