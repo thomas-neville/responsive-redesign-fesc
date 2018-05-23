@@ -258,6 +258,10 @@ section {
     .profile-img {
       width: 10rem; } }
 
+#google-chart {
+  -ms-flex-item-align: center;
+      align-self: center; }
+
 footer {
   width: 98%;
   display: -webkit-box;
