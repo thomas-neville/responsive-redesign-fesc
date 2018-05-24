@@ -258,10 +258,17 @@ section {
     .profile-img {
       width: 10rem; } }
 
-#google-chart {
+#renewable-chart {
   -ms-flex-item-align: center;
       align-self: center;
-  width: 80%; }
+  width: 80%;
+  margin-bottom: 2rem; }
+
+#consumption-chart {
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 80%;
+  margin-bottom: 2rem; }
 
 footer {
   width: 98%;
