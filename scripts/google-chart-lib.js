@@ -82,7 +82,14 @@ function drawRenewableChart() {
                    startup: true,
                    duration: 2000,
                    easing: 'out',
-                 }
+                 },
+                 hAxis: {
+                   title: 'Year'
+                 },
+                 vAxis: {
+                   title: 'Billion BTU'
+                 },
+                 height: 300,
                 };
 
   // Instantiate and draw our chart, passing in some options.
@@ -162,14 +169,19 @@ function drawConsumptionChart() {
                  'backgroundColor': '#E0E1FF',
                  'legend': 'none',
                  hAxis: {
-                   direction: '-1'
+                   title: 'Year',
+                   direction: '-1',
                  },
                  'colors': ['#981c1e'],
                  animation: {
                    startup: true,
                    duration: 2000,
                    easing: 'out',
-                 }
+                 },
+                 vAxis: {
+                   title: 'Billion BTU'
+                 },
+                 height: 300,
                 };
 
   // Instantiate and draw our chart, passing in some options.
