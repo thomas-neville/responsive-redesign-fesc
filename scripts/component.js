@@ -1,4 +1,4 @@
-Vue.component('app-footer-heading', {
+Vue.component('footer-heading-app', {
 	props: ['text'],
-	template: '<img src="{{ data.uni logo stuff }}" alt="{{ data.alt logo stuff }}"'
+	template: '<h3>Universities and Colleges of the Consortium</h3>'
 })

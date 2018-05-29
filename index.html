@@ -53,7 +53,7 @@
 
     <!-- Vue.js scripts -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="component.js"></script>
+    <script src="scripts/component.js"></script>
     
   </head>
   <body>
@@ -217,9 +217,13 @@
 
         <p class="copyright-info">Copyright 2018</p>
         
-        <!-- Creating a div to hold the logos for colleges and universities -->
-        <div class="universities">
-          <a href="http://www.ufl.edu/">
+        <!-- Creating a component for the Consortium heading and use Vue for inserting college logos -->
+        <div v-for="colleges in consortium" class="universities">
+
+          <img :src="colleges.imgSource" alt="colleges.name">
+
+          <!-- Commented out while copying info to index.js data -->
+          <!-- <a href="http://www.ufl.edu/">
             <img src="images/logo-ufl-90x67.jpg" alt="UFL">
           </a>
           
@@ -265,10 +269,11 @@
           
           <a href="https://floridapolytechnic.org/">
             <img src="images/logo-fpu-100x67.jpg" alt="FPU">
-          </a>
+          </a> -->
           
         </div>   
       </footer>
     </div>
+    <script src="scripts/index.js"></script>
   </body>
 </html>
