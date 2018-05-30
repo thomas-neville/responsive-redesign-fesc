@@ -414,8 +414,10 @@ footer {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between; } }
-    footer .universities a img {
-      border-radius: 3px;
-      margin: 1rem; }
+    footer .universities a {
+      margin: 0; }
+      footer .universities a img {
+        border-radius: 3px;
+        margin: 1rem; }
 
 /*# sourceMappingURL=styles.css.map */

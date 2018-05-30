@@ -218,11 +218,12 @@
         <p class="copyright-info">Copyright 2018</p>
         
         <!-- Creating a component for the Consortium heading and use Vue for inserting college logos -->
-        <div v-for="colleges in consortium" class="universities">
-
-          <a :href="colleges.url">
-            <img :src="colleges.imgSource" alt="colleges.name">
-          </a>
+        <div class="universities">
+          <div v-for="colleges in consortium">
+            <a :href="colleges.url">
+              <img :src="colleges.imgSource" alt="colleges.name">
+            </a>
+          </div>
 
           <!-- Commented out while copying info to index.js data -->
           <!-- <a href="http://www.ufl.edu/">

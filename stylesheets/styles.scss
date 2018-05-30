@@ -446,13 +446,14 @@ footer {
     flex-flow: column wrap;
     align-items: center;
     background-color: #f0f0f0;
-    
+
     @media screen and (min-width: 375px) {
       flex-flow: row wrap;
       justify-content: space-between;
     }
     
     a {
+      margin: 0;
       img {
         border-radius: 3px;
         margin: 1rem;
