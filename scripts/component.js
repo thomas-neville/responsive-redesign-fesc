@@ -1,3 +1,4 @@
 Vue.component('app-footer', {
-	template: '<div></div>'
+      props: ['consortium'],
+    template: '<div><div v-for="colleges in consortium"><a v-bind:href="colleges.url"><img v-bind:src="colleges.imgSource" v-bind:alt="colleges.name"></a></div></div>'
 })

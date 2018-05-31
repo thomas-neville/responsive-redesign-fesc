@@ -441,7 +441,7 @@ footer {
   }
 /* Too much nesting! Should change to classes */
   
-  .universities {
+  #app div {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -451,7 +451,7 @@ footer {
       flex-flow: row wrap;
       justify-content: space-between;
     }
-    
+
     a {
       margin: 0;
       img {
