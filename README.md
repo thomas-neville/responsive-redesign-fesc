@@ -1,5 +1,5 @@
-# responsive-redesign-fesc
-FESC Website Responsive Redesign
+# FESC Website Responsive Redesign
+Florida Energy Systems Consortium
 
 ## Data
 Both charts are using Google Charts Library. The data sets are relatively simple and easy to instantiate using Google Charts.
